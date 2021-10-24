@@ -40,7 +40,7 @@ h1 {
   transition: all 0.3s ease-in-out;
   font-family: inherit;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .btn:hover {
   background: white;
@@ -74,4 +74,10 @@ input {
 }
 
 @media screen and (max-width: 500px) {
+  .middle {
+    width: 80vw;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
 }
